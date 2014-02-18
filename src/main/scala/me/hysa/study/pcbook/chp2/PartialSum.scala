@@ -1,7 +1,12 @@
+/*
+ * programing-contest-book
+ * User: hysa
+ * Date: 2014/02/18
+ */
 package me.hysa.study.pcbook.chp2
 
 /**
- * 部分和問題
+ * p.34 部分和問題
  * <pre>
  *   整数a1, a2, ..., an が与えられます。その中からいくつか選び、
  *   その和をちょうどkにすることができるかを判定しなさい。
@@ -12,9 +17,6 @@ package me.hysa.study.pcbook.chp2
  *   -10^8 <= k <= 10^8
  *
  * </pre>
- * programing-contest-book
- * User: hysa
- * Date: 2014/02/18
  */
 class PartialSum(val n:Int, val a: List[Int], val k:Int) {
 
